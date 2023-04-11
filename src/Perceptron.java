@@ -28,8 +28,8 @@ public class Perceptron {
     }
 
     public void start() {
-       calculate("perceptron.test.data",true);
-        System.out.println(calculate("perceptron.data",false)+"%");
+       calculate("perceptron.data",true);
+        System.out.println(calculate("perceptron.test.data",false)+"%");
     }
 
     public int calculate(String filePath,boolean learn){
